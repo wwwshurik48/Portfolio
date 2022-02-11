@@ -17,14 +17,15 @@
 .button {
     width: 150px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 20px;
     color: red;
     background-color: #D2B48C;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 391px) {
     .remoteWorkContainer h2 {
-        font-size: 18px;
+        font-size: 20px;
+        text-align: center;
     }
 
     .remoteWorkContainer {

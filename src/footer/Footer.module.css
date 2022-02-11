@@ -27,7 +27,7 @@
     background-origin: content-box;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 391px) {
     .socialBlock {
         width: 86%;
     }

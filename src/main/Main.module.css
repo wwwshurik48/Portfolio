@@ -23,12 +23,12 @@
 
 }
 
-@media (max-width: 360px) {
+@media (max-width: 391px) {
     .text {
         width: 100%;
     }
 
     .photo img {
-        width: 323px;
+        width: 100%;
     }
 }
