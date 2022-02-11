@@ -3,9 +3,11 @@
     width: 100%;
     background-color: cornflowerblue;
 }
-
+.headerComponent {
+    margin-top: 15px;
+}
 .headerContainer {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     display: flex !important;
     justify-content: flex-end !important;
     align-items: center !important;
