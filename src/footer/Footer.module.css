@@ -1,0 +1,43 @@
+.footerBlock {
+    min-height: 30vh;
+    background-color: #c1ff65;
+}
+
+.footerContainer {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    background: #E6E6FA;
+}
+
+.socialBlock {
+    width: 350px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    background-origin: content-box;
+}
+
+@media (max-width: 360px) {
+    .socialBlock {
+        width: 86%;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .rights {
+        font-size: 14px;
+    }
+}

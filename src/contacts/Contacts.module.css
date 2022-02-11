@@ -1,0 +1,44 @@
+.contactsBlock {
+    min-height: 70vh;
+    background-color: #D2B48C;
+}
+
+.contactsContainer {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #E6E6FA;
+}
+
+.contactsForm {
+    border: 2px solid;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contactsForm h2 {
+    background: #E6E6FA;
+}
+
+.contactsForm input {
+    margin-bottom: 20px;
+}
+
+.button {
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
+
+@media (max-width: 360px) {
+    .contactsForm {
+        width: 86%;
+    }
+}

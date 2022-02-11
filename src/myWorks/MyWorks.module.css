@@ -1,0 +1,32 @@
+.myWorksBlock {
+    min-height: 100vh;
+    background-color: #EFEFEF;
+}
+
+.myWorksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #97a4ff;
+}
+
+.works {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.worksComponent {
+    margin: 20px;
+}
+
+@media (max-width: 360px) {
+    .works {
+        justify-content: space-around;
+    }
+}

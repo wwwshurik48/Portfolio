@@ -1,0 +1,18 @@
+.headerBlock {
+    min-height: 50px;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+
+.headerContainer {
+    border: 1px solid red;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+}
+
+@media (max-width: 360px) {
+    .headerComponent {
+        margin-top: 15px;
+    }
+}

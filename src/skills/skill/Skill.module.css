@@ -1,0 +1,24 @@
+.skill {
+    width: 250px;
+    background-color: #ffc4a0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.skill h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.skill span {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.icon {
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+}

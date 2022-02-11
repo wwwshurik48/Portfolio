@@ -1,0 +1,35 @@
+.remoteWorkBlock {
+    min-height: 20vh;
+    background-color: #E6E6FA;
+}
+
+.remoteWorkContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background: #97a4ff;
+}
+
+.button {
+    width: 150px;
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    background-color: #D2B48C;
+}
+
+@media (max-width: 360px) {
+    .remoteWorkContainer h2 {
+        font-size: 18px;
+    }
+
+    .remoteWorkContainer {
+        min-height: 130px;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
