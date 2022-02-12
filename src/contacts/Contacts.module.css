@@ -42,4 +42,10 @@
     .contactsForm {
         width: 86%;
     }
+    .contactsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+    }
 }
